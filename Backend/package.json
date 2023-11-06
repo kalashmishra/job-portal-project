@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "dev":"node app.js",
-    "build":"npm i --output public"
+    "build":"npm i "
   },
   "keywords": [],
   "author": "",
