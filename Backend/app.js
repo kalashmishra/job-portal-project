@@ -7,7 +7,7 @@ require("./models/database").connectDatabase();
 
 // cors
 const cors = require("cors");
-app.use(cors({ credentials: true, origin:["https://job-portal-project-gold.vercel.app"] }));
+app.use(cors({ credentials: true, origin:["https://job-portal-project-gold.vercel.app"], methods:["POST","GET"] }));
 // logger
 const logger = require("morgan");
 app.use(logger("tiny"));
